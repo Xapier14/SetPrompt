@@ -8,7 +8,7 @@ namespace SetPrompt
     {
         public static readonly Version Version = Assembly.GetExecutingAssembly().GetName().Version;
         public static readonly string CurrentPrompt = Environment.GetEnvironmentVariable("PROMPT");
-        public const string PROJECT_PAGE = "";
+        public const string PROJECT_PAGE = @"https://github.com/Xapier14/SetPrompt";
         public static void Main(string[] args)
         {
             // GET CURRENT PROMPT
